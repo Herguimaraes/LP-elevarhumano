@@ -328,16 +328,34 @@ h1, h2, h3 {
     .nav-content {
         flex-direction: column;
         height: auto;
-        padding: 20px 0;
+        padding: 15px 0;
     }
     
     .navbar nav {
         margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
     }
     
     .navbar nav a {
-        margin: 0 10px;
+        margin: 0;
         font-size: 0.9rem;
+    }
+    
+    .hero {
+        align-items: flex-start;
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero h1 span {
+        font-size: 1.6rem;
     }
     
     .product-content h2 {
